@@ -1,92 +1,55 @@
-# TT-copy-paste Lite Script v.1
+# TT-copy-paste Lite v.1
 
-## 📌 **About This Version**
-*The minimalist approach to maximum efficiency*
+> **TL;DR:** The original minimalist AutoHotkey script for Copy/Paste. Remaps `Tab` + `1/2/4` to `Ctrl+C/V/A`. Designed for zero learning curve and one-handed operation.
 
-**TT copy-paste Lite script** — is a lite version of "autohotkey-copy-paste-tantadtaz" script. 
+## 📌 About This Version
+**TT-Lite v.1** is the foundational release of the "Lite" series. It strips away all complex layers from the full [TanTadiTaz] script, leaving only the essential 5 keys needed for 90% of daily tasks.
 
-This version uses minimal keys. Accordingly, there's practically nothing to learn. Except perhaps a simple song, which we'll mention shortly. The beauty of the Lite version is its absolute simplicity — fewer keys, faster mastery, same revolutionary approach.
+**Why use Lite v.1?**
+*   **Minimalism:** Only 5 shortcuts to memorize.
+*   **Stability:** Simple code logic with fewer moving parts.
+*   **Focus:** Solves the "awkward Ctrl+C stretch" without changing your entire workflow.
 
-## 🌙 **Origin Story: From Spilled Juice to Space Technology**
-*How an accident led to a revolutionary discovery*
-
-Sometimes great discoveries happen by accident. One day I spilled juice on my keyboard. After extensive cleaning, the bottom left keys — Ctrl, Alt, and Shift — remained sticky. While researching the problem, I learned: these exact keys are always the first to suffer from liquid damage. This mishap pushed me to write code that unexpectedly became a true breakthrough. Now I use it practically all the time.
-
-**Forget about bottom keys forever!** No more Ctrl, Alt, Shift — only the top row of your keyboard: Tab + numbers 1, 2, 4. What's at the bottom — we ignore, what's at the top — we use to the fullest! Especially indispensable in darkness — evening, night, or when you simply can't see the keyboard. Your fingers will always find the large Tab key and the top row of numbers.
-
-Think about it: an astronaut in zero gravity reaches only for the upper, easily accessible keys. Tab+1 — that's the top row, the most obvious place on the keyboard. During smoke conditions on a space station or any emergency situation with limited visibility, the hand intuitively finds the upper keys. Add oxygen deprivation when the brain works poorly? The simple mantra **"Ta-n, Ta-di, Ta-La"** — like a light song, will surface from memory and help copy and transmit critically important information.
+## 🌙 The "Why"
+This script was born from a hardware accident: I spilled juice on my keyboard, disabling the bottom row (`Ctrl`, `Alt`, `Shift`). To keep working, I wrote this code to move critical modifiers to the top row. It turned out that using `Tab` + Numbers is faster, more ergonomic, and easier to find in the dark than standard keys.
 
 ---
 
-## Structure by Groups:
+## ⌨️ Key Mappings (The "Ta-n, Ta-di, Ta-La" System)
 
-### 🚀 **Quick Start**
-*Only 5 keys to remember!*
+Hold `Tab` to activate the command layer. Release to use as a normal Tab.
 
-**In the Lite version, everything is ultra-simple!** You work only with the upper keys of the keyboard. Hold Tab and press just a few keys — everything happens in one zone, under one hand. **The bottom keys Ctrl, Alt, Shift are no longer needed** — forget about them forever.
+### 1. Clipboard (Top Row Numbers)
+| Shortcut | Action | Mnemonic |
+| :--- | :--- | :--- |
+| `Tab` + `1` | **Copy** (`Ctrl+C`) | Ta-**n** (One) |
+| `Tab` + `2` | **Paste** (`Ctrl+V`) | Ta-**di** (Double) |
+| `Tab` + `4` | **Select All** (`Ctrl+A`) | Ta-**La** (All) |
 
-**The main hotkeys are:**
-- **Tab + Top1** — for Copy
-- **Tab + Top2** — for Paste
-- **Tab + Top4** — for Select All
-- **Tab + S** — for Enter
-- **Tab + D** — for Enter, too
-
-**That's it! Just 5 combinations for all your daily needs.**
-
-### 💡 **How It Works**
-*Simplicity at its finest*
-
-The Lite script uses a revolutionary approach with absolute minimum keys: **all work happens in the upper part of the keyboard**. Tab becomes the only modifier you need. 
-
-**Example workflow (ultra-simple!):**
-1. Hold Tab (large key on the left)
-2. In Window1: double-click on word → press "1" (copy)
-3. Switch to Window2: click where needed → press "2" (paste)
-4. Press "S" for new line
-5. Repeat — instant productivity!
-
-**Need to select all?** Tab+4 and done!
-**Need a new line?** Tab+S or Tab+D — choose what's comfortable!
-
-### 🛡️ **Protection and Control**
-*Safety first*
-
-Even in the Lite version, we care about your workflow:
-
-- **ScrollLock** — Suspend Script Toggle
-- **Ctrl+Alt+Shift+Win+F12** — Emergency Exit
-
-These are the only control keys. ScrollLock is easy to find even in complete darkness, and the emergency exit combination is intentionally complex to avoid accidental activation.
-
-### 🌌 **Universal Application**
-*From home to space*
-
-The Lite version with just 5 keys is perfect for:
-- **Absolute beginners** — learn in 1 minute, use forever
-- **Elderly people** — just 3 numbers to remember (1, 2, 4)
-- **Night work** — minimal keys to find in the dark
-- **Emergency situations** — when only essentials matter
-- **Space missions** — fewer controls mean fewer mistakes
-
-### ⚠️ **Important Notes**
-*Quick setup guide*
-
-- **Alt+Tab temporarily unavailable** when script is active (use ScrollLock to suspend)
-- Script can be edited in any text editor
-- Works with both text and files
-- **Learning time:** Literally 1 minute
+### 2. Utilities (WASD Row)
+| Shortcut | Action | Use Case |
+| :--- | :--- | :--- |
+| `Tab` + `S` | **Enter** | Form submission |
+| `Tab` + `D` | **Enter** | Alternate Key |
 
 ---
 
-## 🎭 **Conclusion**
+## 🛠 Installation
 
-**TT-copy-paste Lite v.1** — is minimalism perfected. Just 5 key combinations replace all the complex keyboard gymnastics. What started as a solution to a spilled keyboard became the simplest productivity tool ever created.
+1. Install [AutoHotkey](https://www.autohotkey.com/).
+2. Download the script file from this repo.
+3. Run the script.
 
-Remember just three numbers: **1 (Copy), 2 (Paste), 4 (Select All)**. Add two letters for Enter (S or D), and you're fully equipped. No more searching for Ctrl, Alt, or Shift in the dark. No more finger stretching. No more mistakes.
+### Controls & Safety
+*   **ScrollLock**: Toggle Script ON/OFF (Suspend). Use this to temporarily disable the script for gaming or standard `Alt+Tab` usage.
+*   **Emergency Exit**: `Ctrl+Alt+Shift+Win+F12` (Terminates script instantly).
 
-The mantra becomes even simpler: **"Ta-n, Ta-di, Ta-La"** — three sounds, infinite possibilities.
+## ⚠️ Limitations
+*   **Alt+Tab:** Standard window switching is interrupted while the script is active. Use `ScrollLock` to suspend if needed.
+*   **Input Lag:** Tiny delay on the `Tab` key (AHK waits to see if you press a modifier number).
+
+## License
+MIT.
 
 ---
-
-*TT-copy-paste Lite Script v.1 by Aleksandrs M. Orrin (aka r.n. Aleksander Mamajevs) — 5 keys to freedom.*
+*Created by Aleksandrs M. Orrin. 5 keys to freedom.*
