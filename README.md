@@ -3,7 +3,7 @@
 > **TL;DR:** The original minimalist AutoHotkey script for Copy/Paste. Remaps `Tab` + `1/2/4` to `Ctrl+C/V/A`. Designed for zero learning curve and one-handed operation.
 
 ## 📌 About This Version
-**TT-Lite v.1** is the foundational release of the "Lite" series. It strips away all complex layers from the full [TanTadiTaz] script, leaving only the essential 5 keys needed for 90% of daily tasks.
+**TT-Lite v.1** is the foundational release of the "Lite" series. It strips away all complex layers from the full [TanTadiTaz](https://github.com/alexanderM23/autohotkey-copy-paste-tantadtaz) script, leaving only the essential 5 keys needed for 90% of daily tasks.
 
 **Why use Lite v.1?**
 *   **Minimalism:** Only 5 shortcuts to memorize.
